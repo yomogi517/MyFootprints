@@ -1,0 +1,217 @@
+(footprint "LED_OSTB0603C1C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RGBLED 1608m ")
+	(tags "RGBLED")
+	(property "Reference" "REF**"
+		(at 0.016 -1.7032 0)
+		(layer "F.SilkS")
+		(uuid "f94c6177-60be-4708-9e6f-9fbecac200f6")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "LED_OSTB0603C1C"
+		(at 2.048 1.6968 0)
+		(layer "F.Fab")
+		(uuid "6f6447f2-f8cf-48f0-b858-07959c02ca80")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6f3a56d-a6a1-4fe2-8572-db2723d17ef5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://akizukidenshi.com/goodsaffix/OSTB0603C1C-A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "213a58df-91f2-42e7-b5df-82656b14078b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGBLED 1608m "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef868c8d-0d09-4e9e-bd09-627c2616b8e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdfb136c-82d4-422f-99bf-3ca873c80479")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "722785a9-0ca5-4f61-ab36-4cd6f07baabf")
+	)
+	(fp_circle
+		(center -1.3 -1.1)
+		(end -1.25 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5f5649f1-1226-468c-bb7d-166217f2945e")
+	)
+	(fp_line
+		(start -1.05 -1.4)
+		(end -1.05 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a8199bf-973f-4ad3-883c-f69600b404be")
+	)
+	(fp_line
+		(start -1.05 1.4)
+		(end 1.05 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9dd033f9-ca1c-420b-8f5c-c40a6eb1adc0")
+	)
+	(fp_line
+		(start 1.05 -1.4)
+		(end -1.05 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e6a7882-ee17-4c4e-b710-51256bcc34bc")
+	)
+	(fp_line
+		(start 1.05 1.4)
+		(end 1.05 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c38dd1f8-af7b-401c-9331-c22b566ace68")
+	)
+	(fp_line
+		(start -0.75 -0.8)
+		(end 0.75 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "691c4559-9e1d-4d3a-ae8b-39feca2d5899")
+	)
+	(fp_line
+		(start -0.75 0.8)
+		(end -0.75 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6aa69e6e-f130-422b-8b64-1a595ec25976")
+	)
+	(fp_line
+		(start 0.75 -0.8)
+		(end 0.75 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04f295a3-82c3-4baf-856f-f7406ee8d308")
+	)
+	(fp_line
+		(start 0.75 0.8)
+		(end -0.75 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6320f08a-4ef6-4ad3-b3aa-f25c3a212929")
+	)
+	(fp_circle
+		(center -1.3 -1.1)
+		(end -1.25 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "28b80735-befb-47b6-9781-5f3121e6dd9b")
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.775)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "95ad8a19-82a5-4a91-845e-1a6f64499127")
+	)
+	(pad "2" smd rect
+		(at 0.5 -0.775)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "fa6c8a76-72ef-45b6-8f57-c0dfb997d095")
+	)
+	(pad "3" smd rect
+		(at -0.5 0.775)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "fa1a9c7b-1c01-440a-b482-3b9925ec7fe8")
+	)
+	(pad "4" smd rect
+		(at 0.5 0.775)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "60cd1f0c-cf29-4086-85bf-1d82e2e7d8db")
+	)
+)
